@@ -1,5 +1,5 @@
 # Introduction
-Project "Data Job Analysis" is a story about the 2023 job market for professionals in data analytics; I tell it in SQL expressions. Kudos to Luke Barousse, expert in data analysis and extraordinary educator, for his invaluable teachings and recommendations. This project was possible thanks to him. 
+Project "Data Job Analysis" is a story about the 2023 job market for professionals in data analytics; I tell it in SQL expressions. Kudos to Luke Barousse, expert in data analysis and extraordinary educator, for his invaluable teachings and recommendations. This project is possible thanks to him. 
 
 "Data Job Analysis" concentrates on data analyst positions; however, each of its topics and the significance of the project as a whole constitute a strategic guide for analysis and data processing that you can customize to your needs. You will learn about the job market trends in 2023 for top paying jobs, in-demand skills, the relationship between high demand jobs and high salary, and other interesting facts particular to jobs in the data analytics world. 
 
@@ -59,9 +59,9 @@ What it means:
 
 - Top 10 paying data analyst roles range from $184,000 to $650,000; the interest in data analysis is showcased across industries. 
 
-You can find the chart for top paying jobs here: [Top Paying Jobs](https://public.tableau.com/views/1_Top_Paying_Jobs_17512342837910/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+You can find the chart for top paying jobs here: [Top Paying Jobs](/Graphs/Top_Paying_Jobs.png)
 
-(This bar chart visualizes the salary for the top 10 salaries for data analysts; the chart was generated in Tableau from my SQL query results, retrieved from an excel file.)
+(This bar chart visualizes the salary for the top 10 sal.aries for data analysts.)
 
 ### 2. Skills for Top Paying Jobs:
 
@@ -99,9 +99,9 @@ What it means:
 
 The query uncovered which are the most demanded skills for the top 10 highest paying data analyst jobs in 2023, in the following order: 1.  **SQL**, 2. **Python**, 3. **Tableau**. Other skills like **R, Showflake, Pandas**, and **Excel** show varying degrees of demand.
 
-You can find the chart for the top-paying job skills here: [Skills for Top Paying Jobs](https://public.tableau.com/views/2_Skills_For_Top_Paying_Jobs/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+You can find the chart for the top-paying job skills here: [Skills for Top Paying Jobs](/Graphs/Skills_For_Top_Paying_Jobs.png)
 
-(This bar chart visualizes the count of skills for the top 10 paying jobs for data analysts; the chart was generated in Tableau from my SQL query results saved in an Excel file.)
+(This bar chart visualizes the count of skills for the top 10 paying jobs for data analysts.)
 
 ### 3. In-Demand Skills for Data Analysts:
 This query is for identifying the skills most demanded in job postings.
@@ -218,9 +218,9 @@ ORDER BY
     demand_count DESC
    LIMIT 25;
    ```
-  You can fid the chart for optimal skills to learn data analytics here: [Optimal Skills to Learn](https://public.tableau.com/views/1_Top_Paying_Jobs/Sheet2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+  You can fid the chart for optimal skills to learn data analytics here: [Optimal Skills to Learn](/Graphs/Optimal_Skills_To_Learn.png)
 
-(This bar chart visualizes the optimal skills for data analysts, sorted by demand; the chart was generated in Tableau from my SQL query results saved in an Excel file.)
+(This bar chart visualizes the optimal skills for data analysts, sorted by demand.)
 
 What it means:
 
